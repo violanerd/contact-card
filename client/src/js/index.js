@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from '../images/logo2.png';
 import Bear from '../images/bear.png';
 import Dog from '../images/dog.png';
-import { initdb } from "./databse";
+import { getDb, initdb, postDb } from "./databse";
 import "../css/index.css"
 
 window.addEventListener('load', function(){
